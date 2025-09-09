@@ -55,8 +55,12 @@ body {
     text-decoration: none;
 }
 
+.iwantonebtn {
+    cursor: pointer;
+}
+
 .iwantonebtn:hover {
-    background: red !important;
+    cursor: pointer;
 }
 
 .social-link-block {
