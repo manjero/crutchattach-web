@@ -76,7 +76,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <div class="bFnJ2A iwantonebtn group-hover:!bg-[#002db5] transition duration-300 ease-in-out"
+                                <div class="bFnJ2A iwantonebtn"
                                     style="clip-path: url(&quot;#__id4&quot;); background: rgb(255, 255, 255); width: 1618.8px; height: 256px; transform: scale(0.255694, 0.255694); transform-origin: 0px 0px;">
                                 </div>
                         <div class="DF_utQ _682gpw _0xkaeQ"
@@ -84,7 +84,7 @@
                             <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
                                 style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6666px; line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                 <span
-                                    class="OYPEnA group-hover:!text-white transition duration-300 ease-in-out pointer-events-none"
+                                    class="OYPEnA pointer-events-none"
                                     style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">
                                     I need one
                                 </span>

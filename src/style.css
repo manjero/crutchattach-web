@@ -55,8 +55,17 @@ body {
     text-decoration: none;
 }
 
+#i-want-one-button {
+    cursor: pointer;
+}
+
+#i-want-one-button:hover .iwantonebtn {
+    background: red !important;
+}
+
 .iwantonebtn {
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .iwantonebtn:hover {
