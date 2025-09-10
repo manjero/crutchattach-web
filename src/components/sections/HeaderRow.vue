@@ -81,7 +81,7 @@
                                 </div>
                         <div class="DF_utQ _682gpw _0xkaeQ"
                             style="touch-action: pan-x pan-y pinch-zoom; width: 319.781px; height: 31px; transform: translate(47.068px, 18.2289px);">
-                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ font-poppins text-[20px] leading-[24px] text-black font-bold">
+                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ font-poppins text-[24px] leading-[28px] text-black font-bold">
                                 <span class="OYPEnA pointer-events-none">
                                     I need one
                                 </span>
@@ -96,7 +96,7 @@
                             style="writing-mode: horizontal-tb; width: 553.837px; height: 79.6667px;">
                             <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                 style="transform: translate(0px, -6.66667px);">
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-poppins text-[60px] leading-[70px] text-white font-extrabold">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-poppins text-[80px] leading-[90px] text-white font-extrabold">
                                     <span class="OYPEnA">CrutchAttach</span>
                                 </p>
                             </div>
@@ -108,10 +108,10 @@
                             style="writing-mode: horizontal-tb; width: 526.359px; height: 104px;">
                             <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                 style="transform: translate(0px, -4px);">
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-libre-baskerville text-[22px] leading-[30px] text-white italic">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-libre-baskerville text-[28px] leading-[36px] text-white italic">
                                     <span class="OYPEnA">Magnetic Forearm</span>
                                 </p>
-                                <p class="cgHgbA nxe3IQ Xp24Nw font-libre-baskerville text-[22px] leading-[30px] text-white italic">
+                                <p class="cgHgbA nxe3IQ Xp24Nw font-libre-baskerville text-[28px] leading-[36px] text-white italic">
                                     <span class="OYPEnA">Crutch Holder.</span>
                                 </p>
                             </div>
@@ -120,7 +120,7 @@
                     <div class="DF_utQ _682gpw _0xkaeQ"
                         style="touch-action: pan-x pan-y pinch-zoom; width: 475.159px; height: 31.6667px; transform: translate(289.8px, 503.09px);">
                         
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-lora text-[18px] leading-[24px] text-white font-normal">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ font-lora text-[24px] leading-[32px] text-white font-normal">
                                     <span class="OYPEnA">3D Printed, Open Sourced.</span>
                                 </p>
                         
