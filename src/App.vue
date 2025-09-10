@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <Main />
-    <div>
-      <div id="root">
-        <div class="yIDCqA"></div>
+  <div class="w-screen min-h-screen flex justify-center bg-white">
+    <div class="w-full max-w-[1792px] mx-auto">
+      <Main />
+      <div>
+        <div id="root">
+          <div class="yIDCqA"></div>
+        </div>
       </div>
     </div>
   </div>

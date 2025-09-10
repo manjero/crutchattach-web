@@ -1,8 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#app {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+._4KoDHA, .l3vAqg, ._65lpxA, .ZRRuDw, .KYQZFA {
+    width: 100% !important;
+    max-width: 1792px !important;
+    margin: 0 auto !important;
+}
+
 .header-row {
     overflow: hidden; 
-    width: 1792px; 
+    width: 100% !important;
+    max-width: 1792px !important; 
     height: 768px; 
     background-color: rgb(255, 255, 255);
+    margin: 0 auto !important;
 }
 
 .abs_0 {
@@ -31,8 +55,21 @@
     text-decoration: none;
 }
 
-.iwantonebtn:hover {
+#i-want-one-button {
+    cursor: pointer;
+}
+
+#i-want-one-button:hover .iwantonebtn {
     background: red !important;
+}
+
+.iwantonebtn {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.iwantonebtn:hover {
+    cursor: pointer;
 }
 
 .social-link-block {

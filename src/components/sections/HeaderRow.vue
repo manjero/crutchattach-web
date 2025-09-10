@@ -63,9 +63,10 @@
                         </div>
                     </div>
                     <div id="i-want-one-button"
-                        class="DF_utQ _lzXBg _682gpw _0xkaeQ hover:bg-white hover:text-[#002db5] transition duration-300 ease-in-out"
-                        style="touch-action: pan-x pan-y pinch-zoom; width: 413.917px; height: 65.4577px; transform: translate(283.8px, 579.271px);">
-                            <a href="#" class="iwantonebtn" @click="showModal = true">
+                        class="DF_utQ _lzXBg _682gpw _0xkaeQ group cursor-pointer transition duration-300 ease-in-out"
+                        style="touch-action: pan-x pan-y pinch-zoom; width: 413.917px; height: 65.4577px; transform: translate(283.8px, 579.271px);"
+                        @click="showModal = true">
+                            <a href="#" class="iwantonebtn pointer-events-none">
                                 <svg class="_7KaXww">
                                     <defs>
                                         <clipPath id="__id4">
@@ -81,11 +82,10 @@
                         <div class="DF_utQ _682gpw _0xkaeQ"
                             style="touch-action: pan-x pan-y pinch-zoom; width: 319.781px; height: 31px; transform: translate(47.068px, 18.2289px);">
                             <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6666px; color: rgb(25, 25, 25); line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6666px; line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                 <span
-                                    class="OYPEnA"
-                                    @click="showModal = true"
-                                    style="cursor: pointer; font-size: 1em; font-weight: 700; font-style: normal; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">
+                                    class="OYPEnA pointer-events-none"
+                                    style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">
                                     I need one
                                 </span>
                             </p>
