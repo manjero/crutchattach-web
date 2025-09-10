@@ -1,0 +1,12 @@
+---
+alwaysApply: false
+---
+Use this color scheme for the entire project - 
+Blue - #002DB5
+Gray - #D9D9D9
+
+Fonts - 
+Titles, Headlines - Poppins ExtraBold, 60px, white
+subtitles - Libre Baskerville Italic, 22px, white
+regular text - Lora Regular, 18px, white
+buttons - Poppins Bold, 20px, black text on white button
