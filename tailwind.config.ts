@@ -18,11 +18,6 @@ export default {
 			}
 		},
 		extend: {
-			fontFamily: {
-				'poppins': ['Poppins', 'sans-serif'],
-				'libre-baskerville': ['Libre Baskerville', 'serif'],
-				'lora': ['Lora', 'serif'],
-			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
