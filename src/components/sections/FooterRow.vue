@@ -16,7 +16,7 @@
                                     style="position: absolute; top: 54.9px; left: 54.9px; width: 1682.2px; height: 439.2px;">
                                 </div>
                                 <div class="DF_utQ _682gpw _0xkaeQ"
-                                    style="touch-action: pan-x pan-y pinch-zoom; width: 66.6667px; height: 66.6667px; transform: translate(289.8px, 76.8px);">
+                                    style="touch-action: pan-x pan-y pinch-zoom; width: 66.6667px; height: 66.6667px; transform: translate(289.8px, 81.8px);">
                                     <div class="Zp7NQw">
                                         <div class="a26Xuw">
                                             <div class="PcHy7w">
@@ -36,7 +36,7 @@
                                 </div>
                                 <div id="facebook-link" class="DF_utQ _682gpw _0xkaeQ"
                                     style="touch-action: pan-x pan-y pinch-zoom; width: 69.6086px; height: 69.6086px; transform: translate(512.023px, 399.156px);">
-                                    <a class="social-link" target="_blank" href="https://www.facebook.com/">
+                                    <a class="social-link" target="_blank" href="https://www.facebook.com/profile.php?id=61575704924467">
                                         <!--?xml version="1.0" ?--><svg class="social-link" height="100%"
                                             style="fill:#002DB5;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;fill:#002DB5"
                                             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
@@ -97,7 +97,7 @@
                                 </div>
                                 <div id="twitter" class="DF_utQ _682gpw _0xkaeQ"
                                     style="touch-action: pan-x pan-y pinch-zoom; width: 69.6086px; height: 69.6086px; transform: translate(601.631px, 399.156px);">
-                                    <a class="social-link" href="https://twitter.com/shaharcrutchattach"
+                                    <a class="social-link" href="https://x.com/CrutchAttach"
                                         target="_blank">
                                         <svg fill="#002DB5" height="100%"
                                             style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
@@ -112,7 +112,7 @@
                                 </div>
                                 <div id="instagram-link" class="DF_utQ _682gpw _0xkaeQ"
                                     style="touch-action: pan-x pan-y pinch-zoom; top: -2px; width: 82.1057px; height: 82.1057px; transform: translate(690.888px, 396.408px);">
-                                    <a class="social-link" href="https://instagram.com/shaharcrutchattach"
+                                    <a class="social-link" href="https://www.instagram.com/crutchatta.ch/"
                                         target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-521.3207 -530.673 1080 1080"
                                             width="100%" height="100%">
@@ -148,7 +148,7 @@
                                 </div>
                                 <div id="youtube-link" class="DF_utQ _682gpw _0xkaeQ"
                                     style="touch-action: pan-x pan-y pinch-zoom; width: 108.296px; height: 71.069px; transform: translate(785.643px, 400.444px); top: -2px">
-                                    <a class="social-link" href="https://www.youtube.com/@shaharcrutchattach"
+                                    <a class="social-link" href="https://www.youtube.com/@CrutchAttach"
                                         target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16.91" width="108px"
                                             height="76.094999999999px">
@@ -164,8 +164,8 @@
                                         style="writing-mode: horizontal-tb; width: 188.68px; height: 44.2px;">
                                         <div lang="en" class="AdBbhQ hGbcYA _7rUwsA"
                                             style="transform: translate(0px, 5.59999px);">
-                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFdJs2qTWQ 0&quot;, auto; --cAuMqQ: 37.3333px; color: rgb(0, 45, 181); line-height: 33px; letter-spacing: -0.075em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-regular"
+                                                style="--cAuMqQ: 37.3333px; color: rgb(0, 45, 181); line-height: 33px; letter-spacing: -0.075em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;">Get
                                                     social</span>
@@ -183,8 +183,8 @@
                                                 style="writing-mode: horizontal-tb; width: 481.133px; height: 44.2px;">
                                                 <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                                     style="transform: translate(0px, 5.59999px);">
-                                                    <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                                        style="font-family: &quot;YAFdJs2qTWQ 0&quot;, auto; --cAuMqQ: 37.3333px; color: rgb(0, 45, 181); line-height: 33px; letter-spacing: -0.075em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                                    <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-regular"
+                                                        style="--cAuMqQ: 37.3333px; color: rgb(0, 45, 181); line-height: 33px; letter-spacing: -0.075em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                         <span class="OYPEnA"
                                                             style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;">Join
                                                             our community</span>
@@ -195,12 +195,12 @@
                                         <div class="DF_utQ _682gpw _0xkaeQ"
                                             style="touch-action: pan-x pan-y pinch-zoom; width: 481.14px; height: 36px; transform: translate(-2.84217e-14px, 61.3224px);">
 
-                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 30.6664px; color: rgb(0, 45, 181); line-height: 36px; letter-spacing: -0.05em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 30.6664px; color: rgb(0, 45, 181); line-height: 36px; letter-spacing: -0.05em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
-                                                    style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;"><a
-                                                        class="links"
-                                                        href="mailto:crutchattachmain@gmail.com">crutchattachmain@gmail.com</a></span>
+                                                    style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(0, 45, 181) !important; font-kerning: none; text-decoration: none;">
+                                                    <a class="links" href="mailto:crutchattachmain@gmail.com">crutchattachmain@gmail.com</a>
+                                                </span>
                                             </p>
                                         </div>
                                     </div>
@@ -208,7 +208,7 @@
                                 <div class="DF_utQ _682gpw _0xkaeQ"
                                     style="touch-action: pan-x pan-y pinch-zoom; width: 553.837px; height: 79.6667px; transform: translate(377.043px, 70.3px);">
                                     <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                        style="font-family: &quot;YAFdtfahXt8 0&quot;, auto; --cAuMqQ: 66.6667px; color: rgb(0, 45, 181); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                        style="font-family: Poppins; --cAuMqQ: 66.6667px; color: rgb(0, 45, 181); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                         <span class="OYPEnA"
                                             style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;">CrutchAttach</span>
                                     </p>

@@ -35,7 +35,7 @@ style="background-color: rgb(0, 45, 181);">
                                         </defs>
                                     </svg>
                                     <div class="bFnJ2A"
-                                        style="clip-path: url(&quot;#__id5&quot;); background: rgb(0, 45, 181); width: 269.5px; height: 256px; transform: scale(3, 3); transform-origin: 0px 0px;">
+                                        style="clip-path: url('#__id5'); background: rgb(0, 45, 181); width: 269.5px; height: 256px; transform: scale(3, 3); transform-origin: 0px 0px;">
                                     </div>
                                 </div>
                             </div>
@@ -69,8 +69,8 @@ style="background-color: rgb(0, 45, 181);">
                                 style="writing-mode: horizontal-tb; width: 526.359px; height: 384px;">
                                 <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                     style="transform: translate(0px, -4px);">
-                                    <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                        style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                    <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-regular"
+                                        style=" --cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                         <span class="OYPEnA"
                                             style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">CrutchAttach
                                             enables</span><span class="OYPEnA"
@@ -112,10 +112,9 @@ style="background-color: rgb(0, 45, 181);">
                                 <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                     style="transform: translate(0px, -6.66667px);">
                                     <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                        style="font-family: &quot;YAFdtfahXt8 0&quot;, auto; --cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                        style="font-family: Poppins; --cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                         <span class="OYPEnA"
-                                            style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">intuitive
-                                            usage.</span>
+                                            style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Intuitive usage.</span>
                                     </p>
                                 </div>
                             </div>

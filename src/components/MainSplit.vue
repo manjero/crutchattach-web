@@ -9,7 +9,9 @@
                                 <HeaderRow />
                                 <MadeForWoundedRow />
                                 <IntuitiveRow />
+                                <div class="row-divider"></div>
                                 <OpenSourcedRow />
+                                <div class="row-divider"></div>
                                 <ValidatedRow />
                                 <SchematicsRow />
                                 <DownloadsRow />

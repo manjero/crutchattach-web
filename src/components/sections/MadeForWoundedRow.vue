@@ -20,14 +20,14 @@
                                 style="position: absolute; top: 15px; left: 15px; width: 1762px; height: 120px;">
                             </div>
                             <div class="DF_utQ _682gpw _0xkaeQ"
-                                style="touch-action: pan-x pan-y pinch-zoom; width: 846.047px; height: 48px; transform: translate(457.18px, 51px);">
+                                style="touch-action: pan-x pan-y pinch-zoom; width: 846.047px; height: 48px; transform: translate(-50%, 0px); left: 50%; top: 51px; position: absolute;">
                                 <div class="aF9o6Q _0yZ6Qg"
                                     style="writing-mode: horizontal-tb; width: 846.047px; height: 48px;">
                                     <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                         style="transform: translate(0px, -4px);">
-                                        <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                            style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(0, 45, 181); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
-                                            <span class="OYPEnA"
+                                        <p class="header-font-regular cgHgbA nxe3IQ Xp24Nw PanoWQ"
+                                            style=" --cAuMqQ: 40px; color: rgb(0, 45, 181); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none; text-align: center;">
+                                            <span class="OYPEnA header-font-subtitle"
                                                 style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;">Made
                                                 with the wounded for the
                                                 wounded.</span><span

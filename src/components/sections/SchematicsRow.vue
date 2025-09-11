@@ -31,7 +31,7 @@
                                                     <p class="L_cebA">
                                                         <span class="OYPEnA"
                                                             style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">
-                                                            <a class="white-link" href="https://www.instructables.com/CrutchAttach-Assistive-Magnetic-Forearm-Crutch-Hol/" target="_blank">Our instructions are made easy! </a></span>
+                                                            <a class="header-font-title white-blue-link" href="https://www.instructables.com/CrutchAttach-Assistive-Magnetic-Forearm-Crutch-Hol/" target="_blank">Our instructions are made easy! </a></span>
                                                         </p>
                                                     </div>
                                         </div>
@@ -122,8 +122,8 @@
                                         style="writing-mode: horizontal-tb; width: 130.795px; height: 22.2667px; transform: scale(1.40187, 1.40187); transform-origin: 0px 0px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -1.86667px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Disc
                                                     Magnets</span>
@@ -166,8 +166,8 @@
                                         style="writing-mode: horizontal-tb; width: 130.795px; height: 22.2667px; transform: scale(1.40187, 1.40187); transform-origin: 0px 0px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -1.86667px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Cover</span>
                                             </p>
@@ -209,8 +209,8 @@
                                         style="writing-mode: horizontal-tb; width: 130.795px; height: 22.2667px; transform: scale(1.40187, 1.40187); transform-origin: 0px 0px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -1.86667px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Static</span>
                                             </p>
@@ -252,8 +252,8 @@
                                         style="writing-mode: horizontal-tb; width: 130.795px; height: 22.2667px; transform: scale(1.40187, 1.40187); transform-origin: 0px 0px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -1.86667px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Dynamic</span>
                                             </p>
@@ -266,8 +266,8 @@
                                         style="writing-mode: horizontal-tb; width: 130.795px; height: 22.2667px; transform: scale(1.40187, 1.40187); transform-origin: 0px 0px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -1.86667px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 18.6667px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">M4
                                                     Screws</span>

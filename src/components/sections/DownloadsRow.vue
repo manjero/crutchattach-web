@@ -75,7 +75,7 @@
                                                 </defs>
                                             </svg>
                                             <div class="bFnJ2A"
-                                                style="clip-path: url(&quot;#__id42&quot;); background: rgb(217, 217, 217); width: 256px; height: 384px; transform: scale(1.2, 1.2); transform-origin: 0px 0px;">
+                                                style="clip-path: url(#__id42); background: rgb(217, 217, 217); width: 256px; height: 384px; transform: scale(1.2, 1.2); transform-origin: 0px 0px;">
                                             </div>
                                         </div>
                                     </div>
@@ -106,8 +106,8 @@
                                         style="writing-mode: horizontal-tb; width: 353.79px; height: 104px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -4px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular"
+                                                style=" --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">3D
                                                     files can be <br /> found [<a class="white-link" target="_blank" href="https://makerworld.com/en/models/1459360-crutchattach#profileId-1521521">here</a>].</span>
@@ -121,8 +121,7 @@
                                         style="writing-mode: horizontal-tb; width: 353.79px; height: 104px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -4px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="header-font-regular cgHgbA pYZEjA Xp24Nw PanoWQ" style=" --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Detailed <br /> 
                                                     guidelines [<a target="_blank" class="white-link" href="https://www.instructables.com/CrutchAttach-Assistive-Magnetic-Forearm-Crutch-Hol/">here</a>].</span>
@@ -136,8 +135,8 @@
                                         style="writing-mode: horizontal-tb; width: 553.837px; height: 79.6667px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -6.66667px);">
-                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFdtfahXt8 0&quot;, auto; --cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-title"
+                                                style="font-family: Poppins; --cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Downloadssssss</span>
                                             </p>
@@ -150,8 +149,7 @@
                                         style="writing-mode: horizontal-tb; width: 251.961px; height: 216px;">
                                         <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                             style="transform: translate(0px, -4px);">
-                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(0, 45, 181); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-regular" style=" --cAuMqQ: 40px; color: rgb(0, 45, 181); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(0, 45, 181); font-kerning: none; text-decoration: none;">Don’t
                                                     have</span><span class="OYPEnA"

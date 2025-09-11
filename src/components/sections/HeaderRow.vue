@@ -15,9 +15,9 @@
                             style="writing-mode: horizontal-tb; width: 319.781px; height: 31px;">
                             <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                 style="transform: translate(-0.266666px, 1.99999px);">
-                                <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                    style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6666px; color: rgb(25, 25, 25); line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
-                                    <span class="OYPEnA" style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">I need one</span>
+                                <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-button"
+                                    style="--cAuMqQ: 26.6666px; color: rgb(25, 25, 25); line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                    <span class="OYPEnA" style="font-size: 1em; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">I need one</span>
                                 </p>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                                             </defs>
                                         </svg>
                                         <div class="bFnJ2A"
-                                            style="clip-path: url(&quot;#__id3&quot;); background: rgb(0, 45, 181); width: 256px; height: 409.532px; transform: scale(2.01914, 2.01914); transform-origin: 0px 0px;">
+                                            style="clip-path: url('#__id3'); background: rgb(0, 45, 181); width: 256px; height: 409.532px; transform: scale(2.01914, 2.01914); transform-origin: 0px 0px;">
                                         </div>
                                     </div>
                                 </div>
@@ -77,15 +77,15 @@
                                     </defs>
                                 </svg>
                                 <div class="bFnJ2A iwantonebtn"
-                                    style="clip-path: url(&quot;#__id4&quot;); background: rgb(255, 255, 255); width: 1618.8px; height: 256px; transform: scale(0.255694, 0.255694); transform-origin: 0px 0px;">
+                                    style="clip-path: url('#__id4'); background: rgb(255, 255, 255); width: 1618.8px; height: 256px; transform: scale(0.255694, 0.255694); transform-origin: 0px 0px;">
                                 </div>
                         <div class="DF_utQ _682gpw _0xkaeQ"
                             style="touch-action: pan-x pan-y pinch-zoom; width: 319.781px; height: 31px; transform: translate(47.068px, 18.2289px);">
-                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ"
-                                style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6666px; line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                            <p class="cgHgbA pYZEjA Xp24Nw PanoWQ header-font-button"
+                                style="--cAuMqQ: 26.6666px; line-height: 27px; letter-spacing: -0.02em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                 <span
                                     class="OYPEnA pointer-events-none"
-                                    style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">
+                                    style="font-size: 1em; color: rgb(25, 25, 25); font-kerning: none; text-decoration: none;">
                                     I need one
                                 </span>
                             </p>
@@ -99,10 +99,10 @@
                             style="writing-mode: horizontal-tb; width: 553.837px; height: 79.6667px;">
                             <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                 style="transform: translate(0px, -6.66667px);">
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                    style="font-family: &quot;YAFdtfahXt8 0&quot;, auto; --cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-title"
+                                    style="--cAuMqQ: 66.6667px; color: rgb(255, 255, 255); line-height: 93px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                     <span class="OYPEnA"
-                                        style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">CrutchAttach</span>
+                                        style="font-size: 0.9em; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">CrutchAttach</span>
                                 </p>
                             </div>
                         </div>
@@ -113,16 +113,16 @@
                             style="writing-mode: horizontal-tb; width: 526.359px; height: 104px;">
                             <div lang="en" class="AdBbhQ hGbcYA rLWGlw _7rUwsA"
                                 style="transform: translate(0px, -4px);">
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                    style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-subtitle"
+                                    style="--cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                     <span class="OYPEnA"
-                                        style="font-size: 1em; font-weight: 400; font-style: italic; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">Magnetic
+                                        style="font-size: 1em; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">Magnetic
                                         Forearm</span>
                                 </p>
-                                <p class="cgHgbA nxe3IQ Xp24Nw"
-                                    style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                <p class="cgHgbA nxe3IQ Xp24Nw header-font-subtitle"
+                                    style="--cAuMqQ: 40px; color: rgb(217, 217, 217); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                     <span class="OYPEnA"
-                                        style="font-size: 1em; font-weight: 400; font-style: italic; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">Crutch
+                                        style="font-size: 1em; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">Crutch
                                         Holder.</span>
                                 </p>
                             </div>
@@ -131,10 +131,10 @@
                     <div class="DF_utQ _682gpw _0xkaeQ"
                         style="touch-action: pan-x pan-y pinch-zoom; width: 475.159px; height: 31.6667px; transform: translate(289.8px, 503.09px);">
                         
-                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ"
-                                    style="font-family: &quot;YAFcfr0ZwUA 0&quot;, auto; --cAuMqQ: 26.6667px; color: rgb(217, 217, 217); line-height: 37px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
+                                <p class="cgHgbA nxe3IQ Xp24Nw PanoWQ header-font-regular"
+                                    style="--cAuMqQ: 26.6667px; color: rgb(217, 217, 217); line-height: 37px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                     <span class="OYPEnA"
-                                        style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">3D
+                                        style="font-size: 1em; font-weight: 700; color: rgb(217, 217, 217); font-kerning: none; text-decoration: none;">3D
                                         Printed, Open Sourced.</span>
                                 </p>
                         
@@ -145,7 +145,7 @@
         <ContactModal
   v-if="showModal"
   @close="showModal = false"
-  downloadLink="/path/to/your/3Dfiles.zip"
+  downloadLink="https://makerworld.com/en/models/1459360-crutchattach"
 />
     </section>
 </template>
