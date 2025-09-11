@@ -29,7 +29,7 @@ export default {
         },
         html: {
           type: 'static',
-          content: '<hr style=\&#39;height:5px;border-width:0;color:#002db5;background-color:#002db5\&#39;>',
+          content: '<hr style=\'height:5px;border-width:0;color:#002db5;background-color:#002db5\'>',
           attrs: {
             height: '5px',
             color: '#002db5',

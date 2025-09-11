@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen min-h-screen flex justify-center bg-white">
     <div class="w-full max-w-[1792px] mx-auto">
-      <Main />
+      <MainSplit />
       <div>
         <div id="root">
           <div class="yIDCqA"></div>
@@ -16,6 +16,6 @@ import Main from './components/MainSplit.vue';
 
 export default {
   name: 'App',
-  components: { Main }
+  components: { MainSplit: Main }
 }
 </script>

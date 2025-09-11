@@ -91,7 +91,6 @@
                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Design.</span>
                             </p>
                         </a>
-                    
                 </div>
                 <div class="DF_utQ _682gpw _0xkaeQ"
                     style="touch-action: pan-x pan-y pinch-zoom; width: 245.651px; height: 48px; transform: translate(1182.63px, 385.083px);">
