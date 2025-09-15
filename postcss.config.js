@@ -1,11 +1,13 @@
-const purgecss = require('@fullhuman/postcss-purgecss');
+import { purgeCSSPlugin } from '@fullhuman/postcss-purgecss';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
-module.exports = {
+export default {
   plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
+    tailwindcss,
+    autoprefixer,
     ...(process.env.NODE_ENV === 'production'
-      ? [purgecss({
+      ? [purgeCSSPlugin({
           content: [
             './src/**/*.html',
             './src/**/*.vue',
