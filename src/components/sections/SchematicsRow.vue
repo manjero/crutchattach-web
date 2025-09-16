@@ -31,7 +31,7 @@
                                                     <p class="L_cebA">
                                                         <span class="OYPEnA"
                                                             style="font-size: 1em; font-weight: 700; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">
-                                                            <a class="header-font-title white-blue-link" href="https://www.instructables.com/CrutchAttach-Assistive-Magnetic-Forearm-Crutch-Hol/" target="_blank">Our instructions are made easy! </a></span>
+                                                            <a class="header-font-title white-blue-link" :href="EXTERNAL_URLS.INSTRUCTABLES" target="_blank">Our instructions are made easy! </a></span>
                                                         </p>
                                                     </div>
                                         </div>
@@ -316,7 +316,14 @@
 </template>
 
 <script>
+import { EXTERNAL_URLS } from '@/constants/urls'
+
 export default {
-    name: 'SchematicsRow'
+    name: 'SchematicsRow',
+    setup() {
+        return {
+            EXTERNAL_URLS
+        }
+    }
 }
 </script>

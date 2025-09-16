@@ -110,7 +110,7 @@
                                                 style=" --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">3D
-                                                    files can be <br /> found [<a class="white-link" target="_blank" href="https://makerworld.com/en/models/1459360-crutchattach#profileId-1521521">here</a>].</span>
+                                                    files can be <br /> found [<a class="white-link" target="_blank" :href="EXTERNAL_URLS.MAKERWORLD">here</a>].</span>
                                             </p>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@
                                             <p class="header-font-regular cgHgbA pYZEjA Xp24Nw PanoWQ" style=" --cAuMqQ: 40px; color: rgb(255, 255, 255); line-height: 56px; letter-spacing: 0em; --pY_8zA: 0; text-transform: none; --oJepFA: 0; --uYCVzQ: none; list-style-type: none;">
                                                 <span class="OYPEnA"
                                                     style="font-size: 1em; font-weight: 400; font-style: normal; color: rgb(255, 255, 255); font-kerning: none; text-decoration: none;">Detailed <br /> 
-                                                    guidelines [<a target="_blank" class="white-link" href="https://www.instructables.com/CrutchAttach-Assistive-Magnetic-Forearm-Crutch-Hol/">here</a>].</span>
+                                                    guidelines [<a target="_blank" class="white-link" :href="EXTERNAL_URLS.INSTRUCTABLES">here</a>].</span>
                                             </p>
                                         </div>
                                     </div>
@@ -181,7 +181,14 @@
 </template>
 
 <script>
+import { EXTERNAL_URLS } from '@/constants/urls'
+
 export default {
-    name: 'DownloadsRow'
+    name: 'DownloadsRow',
+    setup() {
+        return {
+            EXTERNAL_URLS
+        }
+    }
 }
 </script>

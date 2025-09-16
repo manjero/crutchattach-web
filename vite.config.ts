@@ -5,6 +5,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/crutchattach-web/',
   server: {
     host: "::",
     port: 8080,

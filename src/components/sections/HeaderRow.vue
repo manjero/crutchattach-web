@@ -145,7 +145,6 @@
         <ContactModal
   v-if="showModal"
   @close="showModal=false"
-  downloadLink="https://makerworld.com/en/models/1459360-crutchattach"
 />
     </section>
 </template>

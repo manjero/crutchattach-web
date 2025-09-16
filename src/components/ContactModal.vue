@@ -6,31 +6,10 @@
           ×
         </button>
   
-        <!-- Outer blue background with padding -->
+        <!-- ContactUs component wrapper -->
         <div class="modal-wrapper">
-          <!-- Top half: “I can make it myself!” + Download link -->
-          <div class="modal-top">
-            <h2 class="modal-title">
-              I can make it myself!
-            </h2>
-            <a 
-              :href="downloadLink"
-              class="modal-download"
-              target="_blank"
-              rel="noopener"
-            >
-              Download
-            </a>
-          </div>
-  
-          <!-- Separator line -->
-          <div class="separator"></div>
-  
-          <!-- Bottom half: contact form -->
-          <div class="modal-bottom">
-            <div class="form-container">
-              <ContactForm />
-            </div>
+          <div class="form-container">
+            <ContactUs />
           </div>
         </div>
       </div>
@@ -38,21 +17,15 @@
   </template>
   
   <script>
-  import ContactForm from './ContactForm.vue';
-  
-  export default {
-    name: "ContactModal",
-    components: {
-      ContactForm
-    },
-    props: {
-      downloadLink: {
-        type: String,
-        default: "#"
-      }
-    },
-    emits: ['close']
-  };
+import ContactUs from './ContactUs.vue';
+
+export default {
+  name: "ContactModal",
+  components: {
+    ContactUs
+  },
+  emits: ['close']
+};
   </script>
   
   <style scoped>
@@ -70,11 +43,11 @@
     z-index: 9999;
   }
   
-  /* Modal container larger size */
+  /* Modal container half the size */
   .modal-container {
     background-color: transparent;
-    width: 90%;
-    max-width: 1000px; /* Twice as large */
+    width: 60%;
+    max-width: 800px; /* Half the original size */
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -85,7 +58,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem; /* larger close icon */
+    font-size: 4rem; /* 2 times larger close icon */
     background: transparent;
     border: none;
     cursor: pointer;
@@ -93,74 +66,37 @@
     z-index: 10000;
   }
   
-  /* Outer wrapper: blue background with padding */
+  /* Outer wrapper: simplified for ContactUs component */
   .modal-wrapper {
-    background-color: #002db5;
-    padding: 5px;
-    box-sizing: border-box;
+    background-color: #ffffff;
     border-radius: 8px;
+    overflow: hidden;
   }
   
-  /* Top part: white background */
-  .modal-top {
-    background-color: #ffffff;
-    color: #002db5;
-    padding: 20px;
-    text-align: center;
-    font-size: 1rem; /* match site font */
-  }
-  
-  .modal-title {
-    margin: 0;
-    font-size: 2rem; /* increased from 1.5rem */
-    font-weight: 700;
-    color: #002db5;
-  }
-  
-  .modal-download {
-    display: inline-block;
-    margin-top: 10px;
-    color: #002db5;
-    text-decoration: underline;
-    font-size: 1.5rem; /* increased from 1.25rem */
-  }
-  
-  /* Separator line: thick blue */
-  .separator {
-    height: 4px;
-    background-color: #002db5;
-    margin: 0;
-  }
-  
-  /* Bottom part: white background */
-  .modal-bottom {
-    background-color: #ffffff;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Form container with rounded corners and narrower width */
+  /* Form container for ContactUs component - 1.5 times larger */
   .form-container {
     width: 100%;
-    max-width: 600px; /* Adjust to fit ContactForm better */
+    max-width: 1200px; /* 1.5 times larger than 800px */
     background-color: #ffffff;
-    border-radius: 12px; /* rounded corners */
-    padding: 0; /* remove extra padding since parent has padding */
+    border-radius: 8px;
+    padding: 30px; /* 1.5 times larger padding */
+    box-sizing: border-box;
+    margin: 0 auto; /* Center the form horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px; /* Ensure adequate height */
   }
-  
+
   /* Responsive adjustments */
   @media (max-width: 768px) {
+    .modal-container {
+      width: 90%; /* wider on mobile */
+    }
     .form-container {
       width: 95%; /* wider on mobile */
-    }
-    
-    .modal-title {
-      font-size: 1.8rem;
-    }
-    
-    .modal-download {
-      font-size: 1.3rem;
+      padding: 22px; /* 1.5 times 15px */
+      transform: scale(1.3); /* Slightly smaller scale on mobile */
     }
   }
   </style>

@@ -3,6 +3,7 @@
 <script>
 import { ref } from 'vue'
 import { useVueform, Vueform } from '@vueform/vueform'
+import { EXTERNAL_URLS } from '@/constants/urls'
 
 export default {
   mixins: [Vueform],
@@ -11,49 +12,49 @@ export default {
     const form = useVueform(props, context)
 
     const vueform = ref({
-      size: 'md',
+      size: 'lg',
       displayErrors: false,
-      validateOn: 'step|change',
+      displayMessages: false,
       addClass: 'vf-contact-us',
       schema: {
+        make_button: {
+          type: 'button',
+          secondary: true,
+          align: 'center',
+          info: 'Instructions and files to make one yourself',
+          buttonLabel: 'I Can Make It Myself!',
+          target: '_blank',
+          buttonType: 'anchor',
+          href: EXTERNAL_URLS.MAKERWORLD,
+          id: 'make_button',
+        },
+        divider: {
+          type: 'static',
+          tag: 'hr',
+        },
         page_title: {
           type: 'static',
-          content: 'I CAN MAKE ONE MYSELF',
+          content: 'I Need One!',
           tag: 'h1',
           align: 'center',
         },
-        primaryButton: {
-          type: 'button',
-          buttonLabel: 'DOWNLOAD',
-          align: 'center',
-        },
-        html: {
-          type: 'static',
-          content: '<hr style=\'height:5px;border-width:0;color:#002db5;background-color:#002db5\'>',
-          attrs: {
-            height: '5px',
-            color: '#002db5',
-          },
-        },
-        page_title_1: {
-          type: 'static',
-          content: 'I NEED ONE',
-          tag: 'h1',
-          align: 'center',
-        },
-        last_name: {
+        name: {
           type: 'text',
+          placeholder: 'Name',
           columns: {
             label: 12,
             wrapper: 12,
           },
-          fieldName: 'Last name',
+          fieldName: 'First name',
           rules: [
             'required',
             'max:255',
           ],
-          placeholder: 'Name',
-          label: 'Name',
+          messages: {
+            required: 'Name is required',
+            max: 'Name must not exceed 255 characters'
+          },
+          id: 'name_field',
         },
         email: {
           type: 'text',
@@ -65,27 +66,52 @@ export default {
           ],
           placeholder: 'Email',
           fieldName: 'Email',
-          label: 'Email',
+          messages: {
+            required: 'Email is required',
+            max: 'Email must not exceed 255 characters',
+            email: 'Please enter a valid email address'
+          },
+          id: 'email_field',
         },
         country: {
           type: 'select',
           search: true,
           native: false,
           inputType: 'search',
-          autocomplete: 'disabled',
           placeholder: 'Country',
-          items: '/json/countries.json',
-          label: 'Country',
+          autocomplete: 'enabled',
+          items: import.meta.env.BASE_URL + 'countries.json',
+          fieldName: 'country',
+          rules: [
+            'required',
+          ],
+          messages: {
+            required: 'Please select your country'
+          },
+          id: 'country_field',
         },
-        textarea: {
+        message: {
           type: 'textarea',
-          label: 'Message',
-          placeholder: 'Message',
+          placeholder: 'Tell us about your need and how we might be able to help',
+          id: 'message_field',
+          rules: [
+            'required',
+          ],
+          messages: {
+            required: 'Please enter your message'
+          },
+          fieldName: 'message',
         },
-        primaryButton_1: {
+        divider_1: {
+          type: 'static',
+          tag: 'hr',
+        },
+        send: {
           type: 'button',
-          buttonLabel: 'SEND',
-          align: 'center',
+          submits: true,
+          buttonLabel: 'Send',
+          full: true,
+          size: 'lg',
         },
       },
     })
@@ -260,7 +286,7 @@ export default {
   --vf-space-static-tag-3: 3rem;
   --vf-floating-top: 0rem;
   --vf-floating-top-sm: 0rem;
-  --vf-floating-top-lg: 0.6875rem;
+  --vf-floating-top-lg: 0rem;
   --vf-bg-input: #ffffff;
   --vf-bg-input-hover: #ffffff;
   --vf-bg-input-focus: #ffffff;
@@ -409,5 +435,161 @@ export default {
   --vf-slider-tooltip-arrow-size: 0.3125rem;
   --vf-slider-tooltip-arrow-size-sm: 0.3125rem;
   --vf-slider-tooltip-arrow-size-lg: 0.3125rem;
+}
+
+/* Custom font styles for form */
+.vf-contact-us h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.vf-contact-us input,
+.vf-contact-us textarea,
+.vf-contact-us select,
+.vf-contact-us .vf-input-wrapper,
+.vf-contact-us .vf-text-type,
+.vf-contact-us .vf-textarea-type,
+.vf-contact-us .vf-select-type {
+  font-family: 'Lora', serif !important;
+  font-weight: 400 !important;
+  font-size: 19.6px !important; /* 14px * 1.4 = 19.6px */
+}
+
+/* Make all form input wrappers and select elements 80% of frame width and center them */
+.vf-contact-us .vf-input-wrapper,
+.vf-contact-us .vf-text-type,
+.vf-contact-us .vf-textarea-type,
+.vf-contact-us .vf-select-type,
+.vf-contact-us select {
+  width: 80% !important;
+  max-width: 80% !important;
+  margin: 5px auto !important;
+}
+
+/* Disable floating labels completely */
+.vf-contact-us .vf-floating {
+  display: none !important;
+}
+
+.vf-contact-us .vf-input-wrapper {
+  --vf-floating-top: 0rem !important;
+}
+
+.vf-contact-us .vf-input-wrapper .vf-input {
+  padding-top: var(--vf-py-input) !important;
+}
+
+/* Increase field heights and spacing for better proportion */
+.vf-contact-us .vf-input,
+.vf-contact-us .vf-textarea {
+  min-height: calc(var(--vf-min-height-input) * 1.5) !important; /* Increased for larger fonts */
+  line-height: 1.6 !important;
+  padding: 12px 16px !important; /* Increased padding for larger fonts */
+  width: 80% !important; /* 80% of frame width */
+  max-width: 80% !important;
+  margin: 0 auto !important;
+}
+
+.vf-contact-us .vf-textarea {
+  min-height: 140px !important; /* Increased for larger fonts */
+  padding: 16px !important;
+  width: 80% !important; /* 80% of frame width */
+  max-width: 80% !important;
+}
+
+.vf-contact-us .vf-element {
+  margin-bottom: 4rem !important; /* Increased to 4rem for even larger gaps to contain errors */
+  min-height: 100px !important; /* Increased reserve space for potential error messages */
+}
+
+.vf-contact-us h1 {
+  line-height: 1.4 !important;
+}
+
+/* Hide top-level error messages container */
+.vf-contact-us .vf-errors,
+.vf-contact-us .vf-errors-lg {
+  display: none !important;
+}
+
+/* Ensure individual field error messages are still visible */
+.vf-contact-us .vf-element .vf-element-description,
+.vf-contact-us .vf-element .vf-element-info,
+.vf-contact-us .vf-element .vf-element-error {
+  display: block !important;
+  font-family: 'Lora', serif !important;
+  font-size: 19.6px !important; /* 40% increase */
+  margin-top: 12px !important; /* Increased margin for better spacing */
+  min-height: 32px !important; /* Increased reserve space for error messages */
+  line-height: 1.4 !important;
+}
+
+/* Error message specific styling */
+.vf-contact-us .vf-element-error {
+  color: var(--vf-danger) !important;
+  padding-top: 8px !important; /* Increased padding for better separation */
+  padding-bottom: 8px !important; /* Added bottom padding */
+}
+
+/* Ensure consistent spacing even when no errors are present */
+.vf-contact-us .vf-element-wrapper {
+  padding-bottom: 16px !important; /* Increased padding for better error containment */
+}
+
+/* Ensure form elements don't overflow their containers */
+.vf-contact-us .vf-element {
+  overflow: visible !important;
+}
+
+/* Make sure the form container can accommodate wider elements */
+.vf-contact-us {
+  overflow-x: visible !important;
+  width: 100% !important;
+}
+
+/* Set 19.6px font size for all form elements (40% increase from 14px) */
+.vf-contact-us,
+.vf-contact-us * {
+  font-size: 19.6px !important;
+}
+
+/* Specific styling for buttons */
+.vf-contact-us .vf-btn,
+.vf-contact-us button {
+  font-size: 19.6px !important;
+  padding: 14px 24px !important; /* Increased padding for larger fonts */
+  min-height: 56px !important; /* Increased button height */
+  width: 80% !important; /* 80% of frame width */
+  max-width: 80% !important;
+  font-family: 'Poppins' !important;
+}
+
+/* Placeholder text */
+.vf-contact-us input::placeholder,
+.vf-contact-us textarea::placeholder,
+.vf-contact-us select::placeholder {
+  font-size: 19.6px !important;
+}
+
+/* Dropdown options */
+.vf-contact-us .vf-dropdown-option,
+.vf-contact-us .vf-multiselect-option {
+  font-size: 19.6px !important;
+}
+
+/* Center the Send button */
+.vf-contact-us .vf-btn,
+.vf-contact-us button {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Center the "I Can Make It Myself!" button */
+.vf-contact-us #make_button {
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
 }
 </style>

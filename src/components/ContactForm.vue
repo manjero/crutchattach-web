@@ -1,6 +1,7 @@
 <script>
 import { ref } from 'vue'
 import { useVueform, Vueform } from '@vueform/vueform'
+import { EXTERNAL_URLS } from '@/constants/urls'
 
 export default {
   mixins: [Vueform],
@@ -27,7 +28,7 @@ export default {
           buttonLabel: 'Take Me There',
           target: '_blank',
           buttonType: 'anchor',
-          href: 'https://makerworld.com/en/models/1459360-crutchattach',
+          href: EXTERNAL_URLS.MAKERWORLD,
           id: 'make_button',
         },
         divider: {
@@ -46,7 +47,6 @@ export default {
             'required',
             'max:255',
           ],
-          label: 'Name',
           id: 'name_field',
         },
         email: {
@@ -59,7 +59,6 @@ export default {
           ],
           placeholder: 'Email',
           fieldName: 'Email',
-          label: 'Email',
           id: 'email_field',
         },
         country: {
@@ -69,8 +68,7 @@ export default {
           inputType: 'search',
           placeholder: 'Country',
           autocomplete: 'enabled',
-          items: '/json/countries.json',
-          label: 'Country',
+          items: import.meta.env.BASE_URL + 'countries.json',
           fieldName: 'country',
           rules: [
             'required',
@@ -79,7 +77,6 @@ export default {
         },
         message: {
           type: 'textarea',
-          label: 'Message',
           placeholder: 'Tell us about your need and how we might be able to help',
           id: 'message_field',
           rules: [
@@ -420,5 +417,38 @@ export default {
   --vf-slider-tooltip-arrow-size: 0.3125rem;
   --vf-slider-tooltip-arrow-size-sm: 0.3125rem;
   --vf-slider-tooltip-arrow-size-lg: 0.3125rem;
+}
+
+/* Disable floating labels completely */
+.vf-create-account .vf-floating {
+  display: none !important;
+}
+
+.vf-create-account .vf-input-wrapper {
+  --vf-floating-top: 0rem !important;
+}
+
+.vf-create-account .vf-input-wrapper .vf-input {
+  padding-top: var(--vf-py-input) !important;
+}
+
+/* Center all form elements while maintaining their dimensions */
+.vf-create-account .vf-input-wrapper,
+.vf-create-account .vf-text-type,
+.vf-create-account .vf-textarea-type,
+.vf-create-account .vf-select-type,
+.vf-create-account select,
+.vf-create-account .vf-input,
+.vf-create-account .vf-textarea,
+.vf-create-account .vf-btn,
+.vf-create-account button {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Increase gaps between form fields */
+.vf-create-account .vf-element {
+  margin-bottom: 3rem !important; /* Adjusted gap size to match visual spacing without errors */
+  min-height: 60px !important; /* Reduced reserve space since errors are displayed separately */
 }
 </style>
